@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">171018</string>
+    <string name="input_btn">Input</string>
+    <string name="output_btn">Output</string>
+    <string name="search_btn">Search</string>
+    <string name="log_btn">Log</string>
+</resources>

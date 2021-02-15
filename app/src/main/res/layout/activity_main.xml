@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.a171018.MainActivity">
+
+
+    <Button
+        android:id="@+id/input_btn"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/plus_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/output_btn"
+        android:layout_toStartOf="@+id/output_btn"
+        android:layout_marginRight="54dp"
+        android:layout_marginEnd="54dp" />
+
+    <Button
+        android:id="@+id/output_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/input_btn"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/minus_icon" />
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/search_icon" />
+
+</RelativeLayout>
